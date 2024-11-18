@@ -1,6 +1,6 @@
 {
-  "name": "ALPHA-MD",
-  "description": "This BOT was developed by Beltah.",
+  "name": "HITMAN-MD",
+  "description": "This BOT was developed by Hitman.",
   "keywords": [
     "bot",
     "node",
@@ -14,7 +14,7 @@
   "env": {
     "PREFIX": {
       "description": "choose your prefix of bot",
-      "value": ".",
+      "value": "+",
       "required": true
     },
     "AUTO_READ_STATUS": {
@@ -44,7 +44,7 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "ALPHA-MD",
+      "value": "HITMAN-MD",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -54,7 +54,7 @@
     },
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
-      "value": "yes",
+      "value": "no",
       "required": false 
     },
     "HEROKU_APY_KEY": {
@@ -75,12 +75,12 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "keithkeizzah"
+      "value": "HITMANLOGS"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "254796299159"
+      "value": "2348163137129"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -94,17 +94,17 @@
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-      "value": "",
+      "value": "1",
       "required": false
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "if you want to enable anti delete message put yes else put no",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTICALL": {
       "description": "Automatically decline incoming calls. Type 'on' to activate or 'off' to deactivate.",
-      "value": "yes",
+      "value": "no",
       "required": false  
     },
     "AUTO_REACTION": {
