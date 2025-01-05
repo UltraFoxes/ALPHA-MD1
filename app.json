@@ -24,7 +24,7 @@
     },
     "AUTO_REPLY": {
       "description": "This sets a greeting message when someone texts you automatically",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_LIKE_STATUS": {
@@ -44,7 +44,7 @@
     },
     "PM_PERMIT": {
       "description": "Restrict other users from using your bot in private messages (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "ANTI_VV": {
@@ -54,8 +54,8 @@
     },
     "ANTILINK": {
       "description": "Detect view-once links",
-      "value": "no",
-      "required": false
+      "value": "yes",
+      "required": true
     },
     "BOT_NAME": {
       "description": "Give a name for your bot",
@@ -69,7 +69,7 @@
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -89,7 +89,7 @@
     },
     "OWNER_NAME": {
       "description": "Your name",
-      "value": "keithkeizzah",
+      "value": "hitman",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -99,7 +99,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '254796299159')",
-      "value": "254796299159",
+      "value": "2348056003780",
       "required": false
     },
     "WARN_COUNT": {
@@ -124,7 +124,7 @@
     },
     "ANTICALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_REACTION": {
